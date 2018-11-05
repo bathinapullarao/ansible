@@ -1,0 +1,8 @@
+---
+- name: Create symbolic link 
+  file:
+   src: "/var/www/html/"
+   dest: "/use/local/SYMLINK"
+   state: link
+
+

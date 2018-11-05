@@ -1,0 +1,8 @@
+---
+- name: Copy multiple files
+  copy:
+    src: /tmp/a.conf
+    dest: /use/local/conf/
+  copy:
+    src: /tmp/b.conf
+    dest: /use/local/conf/

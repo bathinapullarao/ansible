@@ -1,0 +1,6 @@
+- name: confirm using the latest Apache server
+  become: yes
+  become_method: sudo
+  yum: 
+    name: httpd 
+    state: latest

@@ -1,0 +1,8 @@
+---
+- name: create directory
+  file:
+    path: "{{ item }}"
+    state: directory
+  with_items:
+    - '/use/local/download'
+    - '/data/information'

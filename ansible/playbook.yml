@@ -1,0 +1,9 @@
+- hosts: client1
+  remote_user: ansadm
+  become: yes
+  become_method: sudo
+  roles:
+    - copy
+    - tomcat 
+    - dir    
+    - symlin
