@@ -1,6 +1,7 @@
 Installation
 
 $ sudo yum install ansible
+
 $ ansible --version
 
 Create ansible role
