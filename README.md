@@ -11,4 +11,5 @@ $ mkdir webap-playbook
 $ cd webap-playbook
 
 $ ansible-galaxy init webap
+
 $ ansible-playbook setup.yml
